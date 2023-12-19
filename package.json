@@ -1,0 +1,13 @@
+{
+  "name": "EduAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pujaar",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.6.1"
+  },
+  "scripts": {
+    "cy:open":"cypress open"
+  }
+}

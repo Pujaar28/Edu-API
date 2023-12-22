@@ -6,4 +6,6 @@ it('Validate Header', () => {
     .its('headers')
     .its('content-type')
     .should('include','application/json; charset=utf-8')
+    cy.get('@pokemon').its('status')
+    .should('equal', 200)
 });
